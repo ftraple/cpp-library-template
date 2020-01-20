@@ -52,9 +52,9 @@ install(TARGETS ${PROJECT_NAME}
 )
 
 # Enable google test
-# option(BUILD_TESTS "Build the tests" ON)
-# if(BUILD_TESTS)
-#     enable_testing()
-#     add_subdirectory(googletest)
-#     add_subdirectory(Test)
-# endif()
+option(BUILD_TESTS "Build the tests" ON)
+if(BUILD_TESTS)
+    enable_testing()
+    add_subdirectory(googletest)
+    add_subdirectory(Test)
+endif()
