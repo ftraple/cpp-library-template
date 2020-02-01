@@ -11,6 +11,14 @@ git clone --recursive git@github.com:ftraple/cpp-library-template.git
 ```
 The **--recursive** option is to download the googletest repository dependency.
 
+If you already downloaded the library and forgot to use the **--recursive** option, 
+use the command below inside the project folder to download the submodules.
+
+```bash
+cd cpp-library-template
+git submodule update --init --recursive
+```
+
 ## How To Compile, Test and Install
 
 The commands below will compile the library tests.
