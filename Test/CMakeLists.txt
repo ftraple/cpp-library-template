@@ -5,6 +5,8 @@ set(SOURCE_FILES
     FooTest.cpp
 )
 
+add_subdirectory(googletest)
+
 include_directories(../Include)
 
 add_executable(${THIS} ${SOURCE_FILES})
