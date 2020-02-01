@@ -3,7 +3,6 @@ set(THIS ${PROJECT_NAME}Test)
 
 set(SOURCE_FILES
     FooTest.cpp
-    Main.cpp
 )
 
 include_directories(../Include)
