@@ -42,7 +42,7 @@ To install the library binaries use the command below inside the build folder.
 sudo make install
 ```
 
+## Guidelines
 
-
-
-
+[Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
+[Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)

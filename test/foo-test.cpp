@@ -1,6 +1,6 @@
 #include <gtest/gtest.h>
 
-#include "Foo/Foo.hpp"
+#include "foo.hpp"
 
 TEST(FooTest, PrintNameTest) {
     // Arrange

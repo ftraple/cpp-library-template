@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Foo/Foo.hpp"
+#include "foo.hpp"
 
 Foo::Foo(const std::string& name): m_name{name} {}
 
