@@ -44,5 +44,17 @@ sudo make install
 
 ## Guidelines
 
+Developement guide line.
 [Cpp Core Guidelines](https://github.com/isocpp/CppCoreGuidelines)
+
+Code style guideline.
 [Google C++ Style Guide](https://google.github.io/styleguide/cppguide.html)
+
+VSCode Configuration.
+
+
+* Go to Preferences -> Settings
+* Search for C_Cpp.clang_format_fallbackStyle
+* Change from **Visual Studio** to **{C_Cpp.clang_format_fallbackStyle": "{ BasedOnStyle: Google, IndentWidth: 4, ColumnLimit: 0}**
+
+
